@@ -20,9 +20,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Ensure connectivity between the two  Virtual machines and install Active Directory 
+- Ensure connectivity between the two Virtual machines and install Active Directory 
 - Create an Admin/Normal user account in Active Directory 
-- Setup Virtual machines for non-administrative user and create addtions user
+- Setup Virtual machines for non-administrative user and create additional user
   
 
 <h2>Deployment and Configuration Steps</h2>
@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 </p>
 <p>
-Firstly, we will login into client-1 of our remote desktop and ping the secound Virtual Machine(DC-1's) private IP. Generating a Perpetual ping and enable ICMPv4 in fire wall of DC-1(Domain Controller), logining back in ans install Active Directory Domain Services. Setting up a new forset ans restart and log back into DC-1. 
+Firstly, we will login into client-1 of our remote desktop and ping the second Virtual Machine(DC-1's) private IP. Generating a perpetual ping and enable ICMPv4 in the firewall of DC-1(Domain Controller), logging back in and installing Active Directory Domain Services. Set up a new forset and restart and log back into DC-1. 
 </p>
 <br />
 
@@ -39,7 +39,7 @@ Firstly, we will login into client-1 of our remote desktop and ping the secound 
 
 </p>
 <p>
-Afterwards, in Active Directory users and computers we'll create organizaton units. Setting up the DNS settings for Client-1 through the Azure portal, logining back in with the admin user(labuser) as before. 
+Afterwards, in Active Directory users and computers we'll create organizaton units. Setting up the DNS settings for Client-1 through the Azure portal, logging back in with the admin user(labuser) as before. 
 </p>
 <br />
 
